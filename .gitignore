@@ -32,3 +32,11 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+.fake
+.ionide
+bin/
+obj/
+pages/**/*.js
+!pages/_app.js
+!pages/index.js

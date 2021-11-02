@@ -1,8 +1,18 @@
+# Fext
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Each page is written in F# (Feliz DSL or Literate Script) and compiled to JavaScript.
 
 ## Getting Started
 
-First, run the development server:
+```
+dotnet restore
+```
+
+Please note that Literate Script does not support watch.
+
+Run the development server:
 
 ```bash
 npm run dev

@@ -2,7 +2,8 @@
   "name": "fext-blog",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "dotnet fable watch -e .js --run next dev",
+    "prebuild": "dotnet fsi build.fsx & dotnet fable -e .js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
