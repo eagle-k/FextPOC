@@ -2,15 +2,33 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Each page is written in F# (Feliz DSL or Literate Script) and compiled to JavaScript.
+Each page is written in F# ([Feliz](https://zaid-ajaj.github.io/Feliz/) DSL and [Literate Scripts](https://fsprojects.github.io/FSharp.Formatting/literate.html)) and compiled to JavaScript.
 
 ## Getting Started
 
-```
+```bash
 dotnet restore
 ```
 
-Please note that Literate Script does not support watch.
+```bash
+npm i
+# or
+yarn
+```
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+```bash
+npm start
+# or
+yarn start
+```
+
+## Development
 
 Run the development server:
 
@@ -19,6 +37,8 @@ npm run dev
 # or
 yarn dev
 ```
+
+**Please note that Literate Script does not support watch.**
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
